@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    display: flex;
+ }
 .upper-portion-nav-options {
     width: 100%;
     height: 100vh;
@@ -401,17 +403,19 @@
 
 
 }
-.right-side h1{
-font-size: 14px;
-font-weight: 500;
-font-family: "Mukta Mahee", arial, sans-serif;
-color:#65C0BA;
+
+.right-side h1 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: #65C0BA;
 
 }
-.right-side p{
-font-size: 30px;
-font-weight: 200;
-font-family: "Abril Fatface", times, serif;
+
+.right-side p {
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Abril Fatface", times, serif;
 
 
 }
@@ -531,17 +535,18 @@ font-family: "Abril Fatface", times, serif;
     padding: 30px;
     font-family: "Mukta Mahee", arial, sans-serif;
     font-weight: 200;
- 
-        display: flex
-    ;
-        flex-direction: column;
-        gap: 20px;
-        align-items: flex-start;
-    
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+
 }
-.little-down-more-more-more form  input{
+
+.little-down-more-more-more form input {
     width: 530px;
 }
+
 .little-down-more-more-more form :first-child {
     display: flex;
     gap: 20px;
@@ -930,6 +935,30 @@ footer .copyright-del p img {
     .little-down-more p {
         font-size: 16px;
     }
+
+    .little-down-more-more-more {
+        height: 130vh;
+        width: 100%;
+    }
+
+    .little-down-more-more-more form input {
+        width: 154%;
+    }
+
+    .little-down-more-more-more form :first-child {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .right-side {
+        width: 70%;
+    }
+
 }
 
 @media only screen and (max-width:550px) {
@@ -940,4 +969,26 @@ footer .copyright-del p img {
     .little-down .left img {
         width: 98%;
     }
+
+    .little-down-more-more-more {
+        height: 130vh;
+    }
+
+    .little-down-more-more-more form input {
+        width: 154%;
+    }
+
+    .little-down-more-more-more form :first-child {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-side {
+        width: 70%;
+    }
+
 }

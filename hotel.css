@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+ }
 .upper-portion-nav-options {
     width: 100%;
     height: 100vh;
@@ -775,11 +778,41 @@ footer .copyright-del p img {
 }
 
 @media only screen and (max-width:550px) {
+    .little-down .right {
+        width: 100%;
+    }
+
+    .little-down .right p {
+        width: 100%;
+    }
+
     .little-down .right h1 {
         width: 100%;
     }
 
     .little-down .left img {
         width: 98%;
+    }
+
+    .little-down-more :first-child {
+        width: 100%;
+    }
+
+    .little-down-more-more-more {
+        height: 350vh;
+    }
+
+    .downward-part .third-down {
+        width: 95%;
+
+    }
+
+    .little-down-more .features div {
+        width: 100%;
+    }
+
+    .little-down .left img {
+        width: 98%;
+        height: auto;
     }
 }
