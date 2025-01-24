@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+ }
 
 .upper-portion-nav-options {
     width: 100%;
@@ -342,4 +345,17 @@ footer .copyright-del p img {
 
 }
 
-@media only screen and (max-width:550px) {}
+@media only screen and (max-width:550px) {
+
+    .gallery .portion-two {
+        flex-direction: column;
+
+    }
+    .gallery .portion-two img {
+        width: 540px;
+        width: 255px;
+    }
+    .gallery .portion-one .first-div {
+        flex-direction: column;
+    }
+}
