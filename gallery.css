@@ -6,6 +6,7 @@
 
 body {
     display: flex;
+    overflow-x: hidden;
 }
 
 .upper-portion-nav-options {
@@ -68,7 +69,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 110%;
     height: 80vh;
     min-height: 500px;
     padding: 30px 5px;
@@ -154,25 +155,9 @@ body {
     margin-left: 10px;
 }
 
-.upper-portion .sort-down .icon-down {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Mukta Mahee", arial, sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-    position: relative;
-    top: 70px;
-}
-
-.upper-portion .sort-down .icon-down img {
-    width: 25px;
-    height: 25px;
-}
-
 .gallery {
-    margin: 100px 0;
+    width: 110%;
+    margin: 100px auto;
 }
 
 .gallery .portion-one {
@@ -219,6 +204,7 @@ footer h1 {
 }
 
 footer {
+    width: 110%;
     padding: 110px 70px 150px 70px;
 }
 

@@ -154,13 +154,6 @@ body{
 }
 
 
-
-.upper-portion .sort-down .icon-down img {
-    width: 25px;
-    height: 25px;
-}
-
-
 .little-down {
     display: flex;
     align-items: center;

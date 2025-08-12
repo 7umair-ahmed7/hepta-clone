@@ -6,6 +6,7 @@
 
 body {
     display: flex;
+    overflow-x: hidden;
 }
 
 .upper-portion-nav-options {
@@ -68,7 +69,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 110%;
     height: 80vh;
     min-height: 500px;
     padding: 30px 5px;
@@ -157,7 +158,8 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
+    width: 110%;
+    margin: 100px auto;
 }
 
 .right-side {
@@ -186,7 +188,6 @@ body {
 }
 
 .right-side .search input {
-
     padding: 10px;
     border: none;
     outline: 0;
@@ -358,6 +359,7 @@ footer h1 {
 
 footer {
     padding: 110px 70px 150px 70px;
+    width: 110%;
 }
 
 footer .footer-upper {
