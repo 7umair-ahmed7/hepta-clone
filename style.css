@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-   display: flex;
+
+body {
+    display: flex;
 }
 
 .upper-portion-nav-options {
@@ -45,10 +46,12 @@ body{
     cursor: pointer;
 
 }
-.upper-portion-nav-options ul li a{
+
+.upper-portion-nav-options ul li a {
     text-decoration: none;
     color: black;
 }
+
 .upper-portion-nav-options ul li a:hover {
     color: #65C0BA;
     transition: all .3s ease-in;
@@ -170,7 +173,7 @@ body{
     display: flex;
     align-items: center;
     gap: 60px;
-    padding: 80px;
+    padding: 40px;
     margin-bottom: 75px;
 }
 
@@ -771,12 +774,14 @@ footer .copyright-del p img {
 }
 
 @media only screen and (max-width:550px) {
-    .little-down .right{
+    .little-down .right {
         width: 120%;
     }
-    .little-down .right p{
+
+    .little-down .right p {
         width: 100%;
     }
+
     .little-down .right h1 {
         width: 100%;
     }
@@ -784,17 +789,21 @@ footer .copyright-del p img {
     .little-down .left img {
         width: 98%;
     }
-    .little-down-more :first-child{
+
+    .little-down-more :first-child {
         width: 100%;
     }
-    .little-down-more-more-more{
+
+    .little-down-more-more-more {
         height: 410vh;
     }
+
     .downward-part .third-down {
         width: 95%;
 
     }
-    .little-down-more .features div{
+
+    .little-down-more .features div {
         width: 100%;
     }
 }
