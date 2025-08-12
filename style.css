@@ -775,7 +775,7 @@ footer .copyright-del p img {
 
 @media only screen and (max-width:550px) {
     .little-down .right {
-        width: 120%;
+        width: 100%;
     }
 
     .little-down .right p {
