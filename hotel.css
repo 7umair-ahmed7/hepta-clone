@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
- }
+}
+
 .upper-portion-nav-options {
     width: 100%;
     height: 100vh;
@@ -253,20 +254,6 @@ body{
     height: 660px;
 }
 
-.little-down-more {
-    background-color: #fafafa;
-    border: 1px solid #e0e0e0;
-    padding: 110px 70px 150px 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-
-}
-
-.little-down-more :first-child {
-    width: 93%;
-}
 
 .features {
     margin-bottom: 150px;
@@ -474,138 +461,6 @@ body{
     text-transform: uppercase;
 }
 
-
-.happy-customers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 110px 70px 150px 70px;
-    gap: 60px;
-    background-color: #fafafa;
-    border: 1px solid #e0e0e0;
-
-}
-
-.happy-customers h1 {
-    font-size: 70px;
-    font-weight: 500;
-    font-family: "Abril Fatface", times, serif;
-}
-
-.happy-customers .comments {
-    display: flex;
-    gap: 30px;
-}
-
-.happy-customers .comments .comment img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-.happy-customers .comments .comment .default {
-    padding: 5px;
-    border: 1px solid black;
-}
-
-.happy-customers .comments .comment p {
-    font-size: 20px;
-    font-family: "Mukta Mahee", arial, sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    color: black;
-}
-
-.happy-customers .comments .comment .writer {
-    font-size: 20px;
-    font-family: "Mukta Mahee", arial, sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    color: #6C757D;
-}
-
-.downward-part {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 110px 70px 150px 70px;
-    gap: 60px;
-    text-align: center;
-}
-
-.downward-part .third-down {
-    width: 93%;
-}
-
-.downward-part .third-down h1 {
-    font-size: 32px;
-    font-weight: 500;
-    font-family: "Abril Fatface", times, serif;
-}
-
-.downward-part .third-down p {
-    font-size: 20px;
-    font-family: "Mukta Mahee", arial, sans-serif;
-    font-weight: 300;
-    color: #6C757D;
-}
-
-.downward-part .destination-cards {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.downward-part .destination-cards .destination-card {
-    width: 255px;
-    height: 242px;
-    text-align: left;
-}
-
-.downward-part .destination-cards .destination-card .stars {
-    display: flex;
-    gap: 3px;
-
-}
-
-.downward-part .destination-cards .destination-card .stars .star-icon {
-    width: 14.3px;
-    height: 18px;
-}
-
-.downward-part .destination-cards .destination-card img {
-    width: 255px;
-    cursor: pointer;
-
-}
-
-.downward-part .destination-cards .destination-card h1 {
-    font-size: 20px;
-    font-weight: 500;
-    font-family: "Abril Fatface", times, serif;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
-.downward-part .destination-cards .destination-card h1:hover {
-    color: #65C0BA;
-
-}
-
-.downward-part .destination-cards .destination-card .review-count {
-    font-size: 18px;
-    font-family: "Mukta Mahee", arial, sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    color: #CCCCCC;
-}
-
-.downward-part .destination-cards .destination-card div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 footer {
     height: auto;
     background-color: #1a1a1a;
@@ -772,9 +627,6 @@ footer .copyright-del p img {
 
     }
 
-    .little-down-more p {
-        font-size: 16px;
-    }
 }
 
 @media only screen and (max-width:550px) {
@@ -794,21 +646,9 @@ footer .copyright-del p img {
         width: 98%;
     }
 
-    .little-down-more :first-child {
-        width: 100%;
-    }
-
-    .little-down-more-more-more {
-        height: 350vh;
-    }
-
     .downward-part .third-down {
         width: 95%;
 
-    }
-
-    .little-down-more .features div {
-        width: 100%;
     }
 
     .little-down .left img {

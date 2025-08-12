@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
- }
+}
 
 .upper-portion-nav-options {
     width: 100%;
@@ -351,10 +352,12 @@ footer .copyright-del p img {
         flex-direction: column;
 
     }
+
     .gallery .portion-two img {
         width: 540px;
         width: 255px;
     }
+
     .gallery .portion-one .first-div {
         flex-direction: column;
     }
